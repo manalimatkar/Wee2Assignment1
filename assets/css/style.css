@@ -65,7 +65,7 @@ section{
 .imglist
 {
     width: 100%;
-    text-align: left;
+    text-align: center;
     margin: 0px auto;
 }
 h1, h2, h3, h4{
@@ -196,7 +196,7 @@ label{
     color: #4aaaa5;
 }
 input, textarea{
-    width: 400px;
+    width: 95%;
     display:block;
     border-style: 1px solid grey;
     padding: 5px;
@@ -204,7 +204,7 @@ input, textarea{
     height: 15px;
 }
 textarea{
-    width: 400px;
+    width: 95%;
     height: 200px;
     display: block;
     border-style: 1px solid grey;
@@ -356,6 +356,7 @@ textarea{
     }*/
     .imglist {
         width: 100%;
+        text-align: center;
     }
     textarea{
         width: 80%;
