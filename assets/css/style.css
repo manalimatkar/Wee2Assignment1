@@ -189,26 +189,28 @@ footer{
 .formField
 {
     margin-top: 10px;
+    width: 100%;
 }
 label{
     display:inline-block;
     font-size: 14px;
     color: #4aaaa5;
+    width: 100%;
 }
-input, textarea{
-    width: 95%;
+input{
     display:block;
+    width: 100%;
     border-style: 1px solid grey;
     padding: 5px;
     margin-top: 10px;
     height: 15px;
 }
 textarea{
-    width: 95%;
     height: 200px;
+    width: 100%;
     display: block;
     border-style: 1px solid grey;
-    padding: 5px;
+    padding: 5px 0px;
     margin-top: 10px;
 }
 .submitBtn{
@@ -235,12 +237,6 @@ textarea{
     #contact-info{
         width: 28%;
     }
-    textarea{
-        width: 80%;
-    }
-    input {
-        width: 95%
-    }
 }
 
 @media only screen and (max-width: 1079px){
@@ -253,12 +249,6 @@ textarea{
     }
     #contact-info{
         width: 30%;
-    }
-    textarea{
-        width: 80%;
-    }
-    input {
-        width: 95%
     }
 }
 @media only screen and (max-width: 980px) {
@@ -293,13 +283,7 @@ textarea{
     }*/
     .contactForm{
         margin-left: 5px;
-    }
-    textarea{
-        width: 80%;
-    }
-    input {
-        width: 95%
-    }
+    }   
 }
 @media only screen and (max-width: 872px)
 {
@@ -314,13 +298,6 @@ textarea{
     #contact-info{
         width: 36%;
     }
-    textarea{
-        width: 80%;
-    }
-    input {
-        width: 95%
-    }
-
 }
 @media only screen and (max-width: 768px) {
     nav{
@@ -358,12 +335,7 @@ textarea{
         width: 100%;
         text-align: center;
     }
-    textarea{
-        width: 80%;
-    }
-    input {
-        width: 95%
-    }
+   
 }
 @media only screen and (max-width: 640px) {
     nav{
@@ -390,16 +362,5 @@ textarea{
     h4{
         margin-left: 20px;
         margin-top: 20px;
-    }
-   /* .img_grid {
-    width: 80%;
-    float: left;
-    margin-left: 100px;
-    }*/
-    textarea{
-        width: 80%;
-    }
-    input {
-        width: 80%
     }
 }
